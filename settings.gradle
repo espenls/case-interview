@@ -1,0 +1,5 @@
+rootProject.name = 'case-interview'
+include 'fagsystem'
+include 'integrationlayer'
+include 'commons'
+

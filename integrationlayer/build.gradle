@@ -1,0 +1,18 @@
+group 'com.insurance'
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1'
+    compile group: 'org.glassfish.jersey.test-framework', name: 'jersey-test-framework-core', version: '2.13'
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet', version: '2.16'
+    compile group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-grizzly2', version: '2.16'
+    compile project(':commons')
+}
