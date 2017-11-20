@@ -22,13 +22,19 @@ automated tests
 
 
 **Improvements**
+Error handling<br/>
+Service documents describing the services<br/>
+Model resource describing the format of the body of requests<br/>
 Service registry, currently the integrationlayer is sending request to fagsystem. The url is hardcoded<br/>
 Service documents describing the services<br/>
 Storage<br/>
 asynchronous call to letter service<br/>
-more validation of requests
+more validation of requests<br/>
+
+
 
 **Other**
+
 I´ve used Postman to send request to the integrationlayer and test.
 
 A POST request to the service:
