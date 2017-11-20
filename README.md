@@ -1,12 +1,12 @@
 # Case interview
 
 
-######Description
+###### Description
 
 Implementing a scenario for creating a insurance system
 
 
-######Implemented
+###### Implemented
 
 _integrationlayer_: A Rest Service for creating a new insurance.  Also includes a simple rest client for sending request to fagsystem
 
@@ -16,7 +16,7 @@ _commons_:  Common classes used by both of the above services
 
 
 
-######Not implemented**
+###### Not implemented**
 letter service <br/>
 tests
 
@@ -32,7 +32,7 @@ asynchronous call to letter service<br/>
 more validation of requests<br/>
 
 
-######Other
+###### Other
 
 I´ve used Postman to send request to the integrationlayer and test.
 
